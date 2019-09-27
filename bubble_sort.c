@@ -1,5 +1,5 @@
 /*
-Code For Bubble Short Using Array
+Code For Bubble Sort Using Array
 http//github.com/gautam0x
 */
 
@@ -27,7 +27,7 @@ int main()
   printf("%d \n",a[i]);
  }
 
- //shorting Process
+ //sorting Process
  for(i=0;i<n;i++)
  {
   for(j=0;j<n-i-1;j++)
@@ -41,8 +41,8 @@ int main()
   }
  }
 
- //Shorted Array Output
- printf("\nShortd Array \n");
+ //Sorted Array Output
+ printf("\nSortd Array \n");
  for(int i=0;i<n;i++)
  {
   printf("%d \n",a[i]);
