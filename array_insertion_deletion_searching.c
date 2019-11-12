@@ -76,7 +76,7 @@ int main()
 
  for(i=0;i<n;i++)
  {
-  if(a[i] == a[i+1])
+  if(a[i] == v)
   {
       printf("\nData has been founded at index %d\n",i+1);
       flag=1;
